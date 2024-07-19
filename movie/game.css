@@ -67,6 +67,19 @@ body {
     background-color: #0056b3;
   }
   
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Adjust this to match your design */
+    z-index: 1000; /* Ensures the nav bar stays on top of other elements */
+  }
+  
+  /* Add padding to the body to prevent content from hiding behind the fixed nav */
+  body {
+    padding-top: 60px; /* Adjust this value to match the height of your nav bar */
+  }
   .rank {
     position: absolute;
     top: -10px;
